@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О компании</title>
+    <link rel="stylesheet" href="css/css/styles.css">
+    <link rel="stylesheet" href="css/productstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        *:not(html, body) {
+            max-height: 100%;
+        }
+        .product {
+            display: none;
+        }
+        .buy-button {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .active {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #27262c;
+        }
+        img:not(.logo) {
+            mix-blend-mode: multiply;
+        }
+        .product button {
+            display: none;
+        }
+        .product h2:not(.name) {
+            font-family: Open Sans;
+            font-weight: 800;
+        }
+        .content-wrapper {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 90%;
+            gap: 20px;
+            padding-bottom: 70px;
+        }
+        main h2 {
+            align-self:center;
+        }
+        .order-header {
+            text-decoration: underline;
+        }
+        .buy-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+            width: 100%;
+            height: 100%;
+        }
+        .active img {
+            width: 50%;
+            height: 50%;
+        }
+        input, button {
+            font-size: clamp(12px, 0.9em, 24px);
+        }
+        .buy-page {
+            padding: 5px;
+        }
+        @media screen and (min-width: 320px) and (max-width: 425px){
+            .buy-button {
+                align-self: center;
+            }
+            .active .productpic {
+                width: 100px;
+                height: 100px;
+            }
+            input {
+                width: 130px;
+            }
+            .buy {
+                width: 130px;
+            }
+            .buy-wrapper {
+                width: 130px;
+                height: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logotype">
+            <img src="source/logo.svg" alt="" class="logo">
+        </div>
+        <nav>
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="index.html">Главная</a></li>
+            <li><a class="menu__item" href="catalog.html">Каталог</a></li>
+            <li><a class="menu__item" href="about.html">О нас</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main class="buy-page">
+        <h2 class="order-header">Оформление заказа</h2>
+        <div class="content-wrapper">
+            <div id="PRODUCT_CONTAINER">
+                <p>Товар</p>
+            </div>
+            <div class="buy">
+                <p>Покупатель</p>
+                <div class="buy-wrapper">
+                    <input class="input" type="text" placeholder="Ф.И.О.">
+                    <input class="input" type="email" placeholder="E-mail">
+                    <input class="input" type="tel" placeholder="Телефон">
+                    <input class="input" type="tel" name="card-num" id="card-num" placeholder="Номер карты">
+                    <input class="input" type="tel" name="card-date" id="card-date" placeholder="Срок действия">
+                    <input class="input" type="tel" name="card-cvv" id="card-cvv" placeholder="CVV/CVC Код">
+                    <input class="input" type="text" name="card-name" id="card-name" placeholder="Имя как на карте">
+                </div>
+            </div>
+        </div>
+        <button type="submit" id="buy-button"  class="buy-button">Оформить</button>
+    </main>
+    <footer class="footer-bottom__items-wrapper">
+        <div class="footer-bottom__item copy font_xs"> 2024 - 2024 © Интернет-магазин 126bit.by. Данный сайт носит информационный характер и ни при каких обстоятельствах не является публичной офертой. Точные цены и возможность приобретения необходимо уточнить у менеджера посредством телефонного звонка, письма через форму обратной связи или оформления заказа. Представленная на сайте информация является объектами авторского права «Компьютерный интернет магазин 126bit.by». Любое использование информации должно быть согласовано с администрацией магазина.
+        </div>
+        <div class="footer-bottom__item pays">
+          <i title="Cash" class="cacsh"></i>
+        </div>
+      </div>
+      </footer>
+    <script>
+        function loadXMLDoc(url, callback) {
+          var xmlhttp;
+          if (window.XMLHttpRequest) {
+            // Код для современных браузеров
+            xmlhttp = new XMLHttpRequest();
+          }
+          xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+              callback(xmlhttp.responseXML);
+            }
+          };
+          xmlhttp.open("GET", url, true);
+          xmlhttp.send();
+        }
+        function applyXSLT(xml, xslt) {
+            var processor = new XSLTProcessor();
+            processor.importStylesheet(xslt);
+            var result = processor.transformToFragment(xml, document);
+            document.getElementById("PRODUCT_CONTAINER").appendChild(result);
+
+            // Задержка выполнения кода
+            setTimeout(function() {
+                // Получаем строку запроса из URL
+                var queryString = window.location.search;
+
+                // Используем URLSearchParams для удобной работы с параметрами запроса
+                var urlParams = new URLSearchParams(queryString);
+
+                // Получаем значение параметра 'product'
+                var id = urlParams.get('product');
+
+                console.log(id);
+                // Находим элемент с этим идентификатором
+                var element = document.getElementById(id);
+                // Если такой элемент существует, делаем его видимым
+                if (element) {
+                    element.classList.add("active");
+                }
+                else document.getElementById('id10').classList.add("active");
+
+                /* Проверка на заполненность всех полей ввода */
+                var inputs = document.getElementsByClassName("input");
+                var button = document.getElementById("buy-button");
+                button.addEventListener("click", function () {
+                    function validateInput() {
+                  var field1 = document.getElementById('card-num').value;
+                  var field2 = document.getElementById('card-date').value;
+                  var field3 = document.getElementById('card-cvv').value;
+                
+                  if(field1.length = 12 && field2.length >= 9 && field3.length >= 3) {
+                    return true;
+                  } else {   
+                    alert("Пожалуйста, заполните поля ввода согласно требованиям: минимум 12 символов в графе 'Номер карты', 9 символов в графе 'Срок действия' и 3 символа в графе 'CVV/CVC Код'.");
+                    return false;
+                  }
+                }
+                if (validateInput() == true) {
+                    alert("Спасибо за покупку!")
+                    setTimeout(function () {location.href = "index.html"}, 1500);
+                }
+                })
+            }, 1000); // Задержка в 1000 миллисекунд (1 секунда)
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            loadXMLDoc("xml/productlist_small.xml", function(xml) {
+                loadXMLDoc("xml/buypage_xslt.xml", function(xslt) {
+                    applyXSLT(xml, xslt);
+                    // Задержка выполнения кода 
+                    setTimeout(function() {
+                        /* Отображение необходимого товара */
+                        // Получаем идентификатор фрагмента из URL (например, '#id1')
+                        var id = window.location.hash;
+                        // Удаляем символ '#' из начала строки, чтобы получить чистый идентификатор
+                        id = id.slice(1);
+                        // Находим элемент с этим идентификатором
+                        var element = document.getElementById(id);
+                        console.log(id);
+                        // Если такой элемент существует, делаем его видимым
+                        if (element) {
+                            element.classList.add = 'active';
+                        }
+                        else document.getElementById('id10').classList.add = "active";
+                    }, 1000); // Задержка в 1000 миллисекунд (1 секунда)
+                });
+            });
+        });
+    </script>
+</body>
+</html>

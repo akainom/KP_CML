@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Document</title>
+    <link rel="stylesheet" href="css/catalogstyle.css">
+    <link rel="stylesheet" href="css/productstyle.css">
+    <link rel="stylesheet" href="css/css/styles.css">
+</head>
+<body id="PRODUCT_PAGE">
+    <header>
+        <div class="logotype">
+            <img src="source/logo.svg" alt="" class="logo">
+        </div>
+        <nav>
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="index.html">Главная</a></li>
+            <li><a class="menu__item" href="catalog.html">Каталог</a></li>
+            <li><a class="menu__item" href="about.html">О нас</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="wrapper">
+            <div id="PRODUCT_CONTAINER">
+
+            </div>
+        </div>
+    </main>
+      <footer class="footer-bottom__items-wrapper">
+        <div class="footer-bottom__item copy font_xs"> 2024 - 2024 © Интернет-магазин 126bit.by. Данный сайт носит информационный характер и ни при каких обстоятельствах не является публичной офертой. Точные цены и возможность приобретения необходимо уточнить у менеджера посредством телефонного звонка, письма через форму обратной связи или оформления заказа. Представленная на сайте информация является объектами авторского права «Компьютерный интернет магазин 126bit.by». Любое использование информации должно быть согласовано с администрацией магазина.
+        </div>
+        <div class="footer-bottom__item pays">
+          <i title="Cash" class="cacsh"></i>
+        </div>
+      </div>
+      </footer>
+    <script>
+        function loadXMLDoc(url, callback) {
+          var xmlhttp;
+          if (window.XMLHttpRequest) {
+            // Код для современных браузеров
+            xmlhttp = new XMLHttpRequest();
+          }
+          xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+              callback(xmlhttp.responseXML);
+            }
+          };
+          xmlhttp.open("GET", url, true);
+          xmlhttp.send();
+        }
+    
+        function applyXSLT(xml, xslt) {
+            var processor = new XSLTProcessor();
+            processor.importStylesheet(xslt);
+            var result = processor.transformToFragment(xml, document);
+            document.getElementById("PRODUCT_CONTAINER").appendChild(result);
+
+            // Задержка выполнения кода
+            setTimeout(function() {
+                // Получаем идентификатор фрагмента из URL (например, '#id1')
+                var id = window.location.hash;
+                // Удаляем символ '#' из начала строки, чтобы получить чистый идентификатор
+                id = id.slice(1);
+                // Находим элемент с этим идентификатором
+                var element = document.getElementById(id);
+                console.log(id);
+                // Если такой элемент существует, делаем его видимым
+                if (element) {
+                    element.classList.add('active');
+                }
+                else document.getElementById('id10').classList.add("active");
+
+            }, 1000); // Задержка в 1000 миллисекунд (1 секунда)
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            loadXMLDoc("xml/productlist.xml", function(xml) {
+                loadXMLDoc("xml/productpage_xslt.xml", function(xslt) {
+                    applyXSLT(xml, xslt);
+                    // Задержка выполнения кода
+                    setTimeout(function() {
+                        /* Отображение необходимого товара */
+                        // Получаем идентификатор фрагмента из URL (например, '#id1')
+                        var id = window.location.hash;
+                        // Удаляем символ '#' из начала строки, чтобы получить чистый идентификатор
+                        id = id.slice(1);
+                        // Находим элемент с этим идентификатором
+                        var element = document.getElementById(id);
+                        console.log(id);
+                        // Если такой элемент существует, делаем его видимым
+                        if (element) {
+                            element.classList.add = 'active';
+                        }
+                        /* Смена названия страницы */
+                        var productNameElement = document.querySelector('.active .name');
+                            document.title = "126bit.by - " + productNameElement.textContent;
+                    }, 1000); // Задержка в 1000 миллисекунд (1 секунда)
+                });
+            });
+        });
+    </script>
+    <script src="js/buybutton_click.js"></script>
+</body>
+</html>

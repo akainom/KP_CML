@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - 126bit.by</title>
+</head>
+<body>
+  <header>
+    <div class="logotype">
+        <img src="source/logo.svg" alt="" class="logo">
+    </div>
+    <nav>
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul class="menu__box">
+        <li><a class="menu__item" href="index.html">Главная</a></li>
+        <li><a class="menu__item" href="catalog.html">Каталог</a></li>
+        <li><a class="menu__item" href="about.html">Доставка</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main class="catalog-page">
+        <h2>Каталог</h2>
+        <div class="categories-line" id="categories-line">
+            <ul>
+              <li><button class="category-button" data-category="category6">Всё</button></li>
+              <li><button class="category-button" data-category="category1">Компьютеры</button></li>
+              <li><button class="category-button" data-category="category2">Ноутбуки</button></li>
+              <li><button class="category-button" data-category="category3">Комплектующие</button></li>
+              <li><button class="category-button" data-category="category4">Видеокарты</button></li>
+              <li><button class="category-button" data-category="category5">Аксессуары и периферия</button></li>
+            </ul>
+        </div>
+        <div id="productlist"></div>
+    </main>
+    <footer class="footer-bottom__items-wrapper">
+        <div class="footer-bottom__item copy font_xs"> 2024 - 2024 © Интернет-магазин 126bit.by. Данный сайт носит информационный характер и ни при каких обстоятельствах не является публичной офертой. Точные цены и возможность приобретения необходимо уточнить у менеджера посредством телефонного звонка, письма через форму обратной связи или оформления заказа. Представленная на сайте информация является объектами авторского права «Компьютерный интернет магазин 126bit.by». Любое использование информации должно быть согласовано с администрацией магазина.
+        </div>
+        <div class="footer-bottom__item pays">
+          <i title="Cash" class="cacsh"></i>
+        </div>
+      </div>
+      </footer>
+    <script>
+        function loadXMLDoc(url, callback) {
+          var xmlhttp;
+          if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest();
+          }
+          xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+              callback(xmlhttp.responseXML);
+            }
+          };
+          xmlhttp.open("GET", url, true);
+          xmlhttp.send();
+        }
+    
+        function applyXSLT(xml, xslt) {
+          var processor = new XSLTProcessor();
+          processor.importStylesheet(xslt);
+          var result = processor.transformToFragment(xml, document);
+          document.getElementById("productlist").appendChild(result);
+        }
+    
+        document.addEventListener("DOMContentLoaded", function() {
+          loadXMLDoc("xml/productlist.xml", function(xml) {
+            loadXMLDoc("xml/xslt.xml", function(xslt) {
+              applyXSLT(xml, xslt);
+            });
+            /* Функция для обработки клика на кнопку "Купить" */
+            function handleBuyButtonClick(event) {
+              // Проверяем, что клик был совершен именно на кнопке "Купить"
+              if (event.target.classList.contains('buy-button')) {
+                // Получаем ID продукта
+                var productId = event.target.closest('.product').id;
+                // Перенаправляем на страницу buypage.html с параметром ID продукта
+                window.location.href = 'buypage.html?product=' + productId;
+              }
+            }
+          
+            // Добавляем обработчик события клика на всю страницу
+            document.addEventListener('click', handleBuyButtonClick);
+          });
+        });
+
+        var link1 = document.createElement("link");
+        link1.rel = "stylesheet";
+        link1.href = "css/css/styles.css";
+        document.head.appendChild(link1);
+
+        var link2 = document.createElement("link");
+        link2.rel = "stylesheet";
+        link2.href = "css/catalogstyle.css";
+        document.head.appendChild(link2);
+      </script>
+      <script src="js/catalog.js"></script>
+</body>
+</html>

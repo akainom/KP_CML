@@ -1,0 +1,46 @@
+* {
+    overflow-wrap: break-word;
+}
+@font-face {
+    font-family: Kanit;
+    src: url(../source/KanitCyrillic.otf);
+}
+p {
+    font-family: Kanit;
+    display: block;
+    text-align: center;
+    max-width: 50%;
+    font-size: clamp(12px, 1em, 24px);
+}
+h2 {
+    font-size: clamp(14px, 1em, 30px);
+}
+ul {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    align-items: center;
+    align-self: center;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    margin: auto;
+}
+@media screen and (max-width: 376px) {
+    body {
+        max-width: 100%;
+        overflow-x: clip;    
+    }
+    .container {
+        width: 375px;
+        padding: 0px;
+        margin: 0px;
+    }
+}

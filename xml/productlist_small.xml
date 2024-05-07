@@ -1,0 +1,137 @@
+<products>
+  <product>
+      <id>id1</id>
+      <name>Компьютер Игровой ARDOR без монитора</name>
+      <picture>image1.jpg</picture>
+      <price>2599</price>
+      <description>6 Ядер 4.4 GHz</description>
+      <button>Купить</button>
+    
+    </product>
+  <product>
+      <id>id2</id>
+      <name>Компьютер игровой DEXP Aquilon O301</name>
+      <picture>image2.jpg</picture>
+      <price>1199</price>
+      <description>i3-12100 4 Ядра 4.3 GHz</description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id3</id>
+      <name>Мини ПК MSI Cubi N ADL-019RU</name>
+      <picture>image3.jpg</picture>
+      <price>2299</price>
+      <description>N100 3.4 GHz 4 Ядра</description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id4</id>
+      <name>Ноутбук HP EliteBook 850 G6 4YD60AV Harman Carbon 4G (LTE)</name>
+      <picture>image4.jpg</picture>
+      <price>1499</price>
+      <description>i5-10210U 4 Ядра 4.2 GHz</description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id5</id>
+      <name>Ноутбук HP EliteBook 855 G7 1J6L9EA-8 Harman Carbon, 4G (LTE)</name>
+      <picture>image5.jpg</picture>
+      <price>1499</price>
+      <description>i5-10210U 4 Ядра 4.4 GHz </description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id6</id>
+      <name>Ноутбук HP EliteBook 850 G6 4YD60AV-8 Harman Carbon 4G (LTE)</name>
+      <picture>image6.jpg</picture>
+      <price>1499</price>
+      <description>i5-10210U 4 Ядра 4.4 GHz </description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id7</id>
+      <name>Материнская плата MSI PRO Z790-P WIFI</name>
+      <picture>image7.jpg</picture>
+      <price>589</price>
+      <description>LGA 1700 Z790-P</description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id8</id>
+      <name>AeroCool VX PLUS 800W</name>
+      <picture>image8.jpg</picture>
+      <price>469</price>
+      <description>800 Вт 80+ Gold</description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id9</id>
+      <name>Оперативная память ADATA XPG SPECTRIX D35G RGB 64 ГБ</name>
+      <picture>image9.jpg</picture>
+      <price>629</price>
+      <description>2x 32 GB, 3200 MHz, 16-20-20</description>
+      <button>Купить</button>
+   
+  </product>
+  <product>
+      <id>id10</id>
+      <name>Видеокарта KFA2 GeForce RTX 4060 CORE Black</name>
+      <picture>image10.jpg</picture>
+      <price>1299</price>
+      <description>8 GB GDDR6, GPU 1830 MHz</description>
+      <button>Купить</button>
+   
+  </product>
+  <product>
+      <id>id11</id>
+      <name>Видеокарта MSI GeForce RTX 4070 VENTUS 3X E OC</name>
+      <picture>image11.jpg</picture>
+      <price>2189</price>
+      <description>12 GB GDDR6X, GPU 1920 MHz</description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id12</id>
+      <name>Видеокарта GIGABYTE GeForce RTX 2060 SUPER WINDFORCE OC</name>
+      <picture>image12.jpg</picture>
+      <price>879</price>
+      <description>8 GB GDDR6 GPU 1470 MHz</description>
+      <button>Купить</button>
+     
+  </product>
+  <product>
+      <id>id13</id>
+      <name>Мышь беспроводная Logitech G PRO X SUPERLIGHT</name>
+      <picture>image13.jpg</picture>
+      <price>349</price>
+      <description>5600 dpi, светодиодный, USB Type-A, радиоканал, кнопки - 5</description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id14</id>
+      <name>Клавиатура ARDOR GAMING Wakizashi</name>
+      <picture>image14.jpg</picture>
+      <price>409</price>
+      <description>механическая Gateron Mint, клавиш - 87, Bluetooth, USB</description>
+      <button>Купить</button>
+    
+  </product>
+  <product>
+      <id>id15</id>
+      <name>Проводные наушники Logitech G PRO X черный</name>
+      <picture>image15.jpg</picture>
+      <price>499</price>
+      <description>7.1 Virtual, охватывающие, 20 Гц - 20000 Гц</description>
+      <button>Купить</button>
+    
+  </product>
+</products>

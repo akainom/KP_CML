@@ -1,0 +1,1248 @@
+<products>
+  <product>
+  <id>id1</id>
+    <name>Компьютер Игровой ARDOR без монитора</name>
+    <picture>image1.jpg</picture>
+    <price>2599</price>
+    <description>6 Ядер 4.4 GHz</description>
+    <button>Купить</button>
+    <fulldesc>
+      <detail>
+        <name>Тип</name>
+        <value>ПК</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>ARDOR GAMING NEO M143</value>
+      </detail>
+      <detail>
+        <name>Линейка</name>
+        <value>ARDOR GAMING NEO</value>
+      </detail>
+      <detail>
+        <name>Форм-фактор корпуса</name>
+        <value>Mid-Tower</value>
+      </detail>
+      <detail>
+        <name>Модель процессора</name>
+        <value>Intel Core i5-12400F</value>
+      </detail>
+      <detail>
+        <name>Общее количество ядер</name>
+        <value>6</value>
+      </detail>
+      <detail>
+        <name>Количество производительных ядер</name>
+        <value>6</value>
+      </detail>
+      <detail>
+        <name>Количество энергоэффективных ядер</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Количество потоков</name>
+        <value>12</value>
+      </detail>
+      <detail>
+        <name>Базовая тактовая частота</name>
+        <value>2.5 ГГц</value>
+      </detail>
+      <detail>
+        <name>Автоматическое увеличение тактовой частоты</name>
+        <value>4.4 ГГц</value>
+      </detail>
+    </fulldesc>
+    </product>
+  <product>
+  <id>id2</id>
+    <name>Компьютер игровой DEXP Aquilon O301</name>
+    <picture>image2.jpg</picture>
+    <price>1199</price>
+    <description>i3-12100 4 Ядра 4.3 GHz</description>
+    <button>Купить</button>
+    <fulldesc>
+      <detail>
+        <name>Гарантия продавца</name>
+        <value>36 мес.</value>
+      </detail>
+      <detail>
+        <name>Тип</name>
+        <value>ПК</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>DEXP Aquilon O301</value>
+      </detail>
+      <detail>
+        <name>Линейка</name>
+        <value>DEXP Aquilon</value>
+      </detail>
+      <detail>
+        <name>Форм-фактор корпуса</name>
+        <value>Mini-Tower</value>
+      </detail>
+      <detail>
+        <name>Цвет корпуса</name>
+        <value>черный</value>
+      </detail>
+      <detail>
+        <name>Модель процессора</name>
+        <value>Intel Core i3-12100</value>
+      </detail>
+      <detail>
+        <name>Общее количество ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество производительных ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество энергоэффективных ядер</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Количество потоков</name>
+        <value>8</value>
+      </detail>
+      <detail>
+        <name>Базовая тактовая частота</name>
+        <value>3.3 ГГц</value>
+      </detail>
+      <detail>
+        <name>Автоматическое увеличение тактовой частоты</name>
+        <value>4.3 ГГц</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id3</id>
+    <name>Мини ПК MSI Cubi N ADL-019RU</name>
+    <picture>image3.jpg</picture>
+    <price>2299</price>
+    <description>N100 3.4 GHz 4 Ядра</description>
+    <button>Купить</button>
+    <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>12 мес.</value>
+      </detail>
+      <detail>
+        <name>Страна-производитель</name>
+        <value>Китай</value>
+      </detail>
+      <detail>
+        <name>Тип</name>
+        <value>мини ПК</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>MSI Cubi N ADL-019RU</value>
+      </detail>
+      <detail>
+        <name>Линейка</name>
+        <value>MSI Cubi</value>
+      </detail>
+      <detail>
+        <name>Код производителя</name>
+        <value>[9S6-B0A911-019]</value>
+      </detail>
+      <detail>
+        <name>Форм-фактор корпуса</name>
+        <value>неттоп</value>
+      </detail>
+      <detail>
+        <name>Цвет корпуса</name>
+        <value>черный</value>
+      </detail>
+      <detail>
+        <name>Модель процессора</name>
+        <value>Intel Processor N100</value>
+      </detail>
+      <detail>
+        <name>Общее количество ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество производительных ядер</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Количество энергоэффективных ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество потоков</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Базовая тактовая частота</name>
+        <value>3.4 ГГц</value>
+      </detail>
+      <detail>
+        <name>Автоматическое увеличение тактовой частоты</name>
+        <value>3.4 ГГц</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id4</id>
+    <name>Ноутбук HP EliteBook 850 G6 4YD60AV Harman Carbon 4G (LTE)</name>
+    <picture>image4.jpg</picture>
+    <price>1499</price>
+    <description>i5-10210U 4 Ядра 4.2 GHz</description>
+    <button>Купить</button>
+    <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>36 мес.</value>
+      </detail>
+      <detail>
+        <name>Страна-производитель</name>
+        <value>Китай</value>
+      </detail>
+      <detail>
+        <name>Тип</name>
+        <value>ноутбук</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>HP EliteBook 850 G7</value>
+      </detail>
+      <detail>
+        <name>Линейка</name>
+        <value>HP EliteBook</value>
+      </detail>
+      <detail>
+        <name>Код производителя</name>
+        <value>[250A2EA]</value>
+      </detail>
+      <detail>
+        <name>Год релиза</name>
+        <value>2020</value>
+      </detail>
+      <detail>
+        <name>Игровой ноутбук</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Модель процессора</name>
+        <value>Intel Core i5-10210U</value>
+      </detail>
+      <detail>
+        <name>Общее количество ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество производительных ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество энергоэффективных ядер</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Максимальное число потоков</name>
+        <value>8</value>
+      </detail>
+      <detail>
+        <name>Частота процессора</name>
+        <value>1.6 ГГц</value>
+      </detail>
+      <detail>
+        <name>Автоматическое увеличение частоты</name>
+        <value>4.2 ГГц</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id5</id>
+    <name>Ноутбук HP EliteBook 855 G7 1J6L9EA-8 Harman Carbon, 4G (LTE)</name>
+    <picture>image5.jpg</picture>
+    <price>1499</price>
+    <description>i5-10210U 4 Ядра 4.4 GHz </description>
+    <button>Купить</button>
+    <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>36 мес.</value>
+      </detail>
+      <detail>
+        <name>Страна-производитель</name>
+        <value>Китай</value>
+      </detail>
+      <detail>
+        <name>Тип</name>
+        <value>ноутбук</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>HP EliteBook 850 G7</value>
+      </detail>
+      <detail>
+        <name>Линейка</name>
+        <value>HP EliteBook</value>
+      </detail>
+      <detail>
+        <name>Код производителя</name>
+        <value>[250A2EA]</value>
+      </detail>
+      <detail>
+        <name>Год релиза</name>
+        <value>2020</value>
+      </detail>
+      <detail>
+        <name>Игровой ноутбук</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Модель процессора</name>
+        <value>Intel Core i5-10210U</value>
+      </detail>
+      <detail>
+        <name>Общее количество ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество производительных ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество энергоэффективных ядер</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Максимальное число потоков</name>
+        <value>8</value>
+      </detail>
+      <detail>
+        <name>Частота процессора</name>
+        <value>1.6 ГГц</value>
+      </detail>
+      <detail>
+        <name>Автоматическое увеличение частоты</name>
+        <value>4.2 ГГц</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id6</id>
+    <name>Ноутбук HP EliteBook 850 G6 4YD60AV-8 Harman Carbon 4G (LTE)</name>
+    <picture>image6.jpg</picture>
+    <price>1499</price>
+    <description>i5-10210U 4 Ядра 4.4 GHz </description>
+    <button>Купить</button>
+    <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>36 мес.</value>
+      </detail>
+      <detail>
+        <name>Страна-производитель</name>
+        <value>Китай</value>
+      </detail>
+      <detail>
+        <name>Тип</name>
+        <value>ноутбук</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>HP EliteBook 850 G7</value>
+      </detail>
+      <detail>
+        <name>Линейка</name>
+        <value>HP EliteBook</value>
+      </detail>
+      <detail>
+        <name>Код производителя</name>
+        <value>[250A2EA]</value>
+      </detail>
+      <detail>
+        <name>Год релиза</name>
+        <value>2020</value>
+      </detail>
+      <detail>
+        <name>Игровой ноутбук</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Модель процессора</name>
+        <value>Intel Core i5-10210U</value>
+      </detail>
+      <detail>
+        <name>Общее количество ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество производительных ядер</name>
+        <value>4</value>
+      </detail>
+      <detail>
+        <name>Количество энергоэффективных ядер</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Максимальное число потоков</name>
+        <value>8</value>
+      </detail>
+      <detail>
+        <name>Частота процессора</name>
+        <value>1.6 ГГц</value>
+      </detail>
+      <detail>
+        <name>Автоматическое увеличение частоты</name>
+        <value>4.2 ГГц</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id7</id>
+    <name>Материнская плата MSI PRO Z790-P WIFI</name>
+    <picture>image7.jpg</picture>
+    <price>589</price>
+    <description>LGA 1700 Z790-P</description>
+    <button>Купить</button>
+    <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>36 мес.</value>
+      </detail>
+      <detail>
+        <name>Страна-производитель</name>
+        <value>Китай</value>
+      </detail>
+      <detail>
+        <name>Форм-фактор</name>
+        <value>Standard-ATX</value>
+      </detail>
+      <detail>
+        <name>Высота</name>
+        <value>305 мм</value>
+      </detail>
+      <detail>
+        <name>Ширина</name>
+        <value>244 мм</value>
+      </detail>
+      <detail>
+        <name>Сокет</name>
+        <value>LGA 1700</value>
+      </detail>
+      <detail>
+        <name>Чипсет Intel</name>
+        <value>Intel Z790</value>
+      </detail>
+      <detail>
+        <name>Совместимые ядра процессоров Intel</name>
+        <value>Alder Lake, Raptor Lake, Raptor Lake Refresh</value>
+      </detail>
+      <detail>
+        <name>Версия PCI Express</name>
+        <value>5.0</value>
+      </detail>
+      <detail>
+        <name>Слоты PCIe x16</name>
+        <value>1 x PCIe 3.0 (в режиме x1), 1 x PCIe 4.0 (в режиме x4), 1 x PCIe 5.0 (в режиме x16)</value>
+      </detail>
+      <detail>
+        <name>Поддержка SLI / CrossFire</name>
+        <value>CrossFire X</value>
+      </detail>
+      <detail>
+        <name>Количество карт в SLI / Crossfire</name>
+        <value>2 шт</value>
+      </detail>
+      <detail>
+        <name>Количество слотов PCI-E x1</name>
+        <value>1</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id8</id>
+    <name>AeroCool VX PLUS 800W</name>
+    <picture>image8.jpg</picture>
+    <price>469</price>
+    <description>800 Вт 80+ Gold</description>
+    <button>Купить</button>
+    <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>24 мес.</value>
+      </detail>
+      <detail>
+        <name>Страна-производитель</name>
+        <value>Китай</value>
+      </detail>
+      <detail>
+        <name>Тип</name>
+        <value>блок питания</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>AeroCool VX PLUS 800W</value>
+      </detail>
+      <detail>
+        <name>Код производителя</name>
+        <value>[VX-800 PLUS]</value>
+      </detail>
+      <detail>
+        <name>Мощность (номинал)</name>
+        <value>800 Вт</value>
+      </detail>
+      <detail>
+        <name>Форм-фактор</name>
+        <value>ATX</value>
+      </detail>
+      <detail>
+        <name>Цвет</name>
+        <value>черный</value>
+      </detail>
+      <detail>
+        <name>Отстегивающиеся кабели</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Оплетка проводов</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Цвета проводов</name>
+        <value>стандартные</value>
+      </detail>
+      <detail>
+        <name>Тип подсветки</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Цвет подсветки</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Мощность по линии 12 В</name>
+        <value>744 Вт</value>
+      </detail>
+      <detail>
+        <name>Ток по линии +12 В</name>
+        <value>12V1 62A</value>
+      </detail>
+      <detail>
+        <name>Ток по линии +3.3 В</name>
+        <value>22 А</value>
+      </detail>
+      <detail>
+        <name>Ток по линии +5 В</name>
+        <value>18 А</value>
+      </detail>
+      <detail>
+        <name>Ток дежурного источника (+5 В Standby)</name>
+        <value>2.5 А</value>
+      </detail>
+      <detail>
+        <name>Ток по линии -12 В</name>
+        <value>0.3 А</value>
+      </detail>
+      <detail>
+        <name>Диапазон входного напряжения сети</name>
+        <value>100-240 В 50/60 Гц</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id9</id>
+    <name>Оперативная память ADATA XPG SPECTRIX D35G RGB 64 ГБ</name>
+    <picture>image9.jpg</picture>
+    <price>629</price>
+    <description>2x 32 GB, 3200 MHz, 16-20-20</description>
+    <button>Купить</button>
+   <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>120 мес.</value>
+      </detail>
+      <detail>
+        <name>Тип памяти</name>
+        <value>DDR4</value>
+      </detail>
+      <detail>
+        <name>Форм-фактор памяти</name>
+        <value>DIMM</value>
+      </detail>
+      <detail>
+        <name>Суммарный объем памяти всего комплекта</name>
+        <value>64 ГБ</value>
+      </detail>
+      <detail>
+        <name>Объем одного модуля памяти</name>
+        <value>32 ГБ</value>
+      </detail>
+      <detail>
+        <name>Количество модулей в комплекте</name>
+        <value>2 шт</value>
+      </detail>
+      <detail>
+        <name>Регистровая память</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>ECC-память</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Тактовая частота</name>
+        <value>3200 МГц</value>
+      </detail>
+      <detail>
+        <name>Профили AMD EXPO</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Профили Intel XMP</name>
+        <value>3200 МГц (16-20-20)</value>
+      </detail>
+      <detail>
+        <name>CAS Latency (CL)</name>
+        <value>16</value>
+      </detail>
+      <detail>
+        <name>RAS to CAS Delay (tRCD)</name>
+        <value>20</value>
+      </detail>
+      <detail>
+        <name>Row Precharge Delay (tRP)</name>
+        <value>20</value>
+      </detail>
+      <detail>
+        <name>Наличие радиатора</name>
+        <value>есть</value>
+      </detail>
+      <detail>
+        <name>Цвет радиатора</name>
+        <value>белый</value>
+      </detail>
+      <detail>
+        <name>Подсветка элементов платы</name>
+        <value>RGB</value>
+      </detail>
+      <detail>
+        <name>Высота</name>
+        <value>36 мм</value>
+      </detail>
+      <detail>
+        <name>Низкопрофильная (Low Profile)</name>
+        <value>нет</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id10</id>
+    <name>Видеокарта KFA2 GeForce RTX 4060 CORE Black [46NSL8MD9NXK]</name>
+    <picture>image10.jpg</picture>
+    <price>1299</price>
+    <description>8 GB GDDR6, GPU 1830 MHz</description>
+    <button>Купить</button>
+   <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>36 мес.</value>
+      </detail>
+      <detail>
+        <name>Тип</name>
+        <value>видеокарта</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>KFA2 GeForce RTX 4060 CORE Black</value>
+      </detail>
+      <detail>
+        <name>Код производителя</name>
+        <value>[46NSL8MD9NXK]</value>
+      </detail>
+      <detail>
+        <name>Цвет</name>
+        <value>черный</value>
+      </detail>
+      <detail>
+        <name>Предназначена для майнинга (добыча криптовалют)</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>LHR</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Графический процессор</name>
+        <value>GeForce RTX 4060</value>
+      </detail>
+      <detail>
+        <name>Микроархитектура</name>
+        <value>NVIDIA Ada Lovelace</value>
+      </detail>
+      <detail>
+        <name>Техпроцесс</name>
+        <value>5 нм</value>
+      </detail>
+      <detail>
+        <name>Штатная частота работы видеочипа</name>
+        <value>1830 МГц</value>
+      </detail>
+      <detail>
+        <name>Турбочастота</name>
+        <value>2490 МГц</value>
+      </detail>
+      <detail>
+        <name>Количество универсальных процессоров (ALU)</name>
+        <value>3072</value>
+      </detail>
+      <detail>
+        <name>Число текстурных блоков</name>
+        <value>96</value>
+      </detail>
+      <detail>
+        <name>Число блоков растеризации</name>
+        <value>48</value>
+      </detail>
+      <detail>
+        <name>Поддержка трассировки лучей</name>
+        <value>есть</value>
+      </detail>
+      <detail>
+        <name>Аппаратное ускорение трассировки лучей (RT-ядра)</name>
+        <value>24</value>
+      </detail>
+      <detail>
+        <name>Тензорные ядра</name>
+        <value>96</value>
+      </detail>
+      <detail>
+        <name>Объем видеопамяти</name>
+        <value>8 ГБ</value>
+      </detail>
+      <detail>
+        <name>Тип памяти</name>
+        <value>GDDR6</value>
+      </detail>
+      <detail>
+        <name>Разрядность шины памяти</name>
+        <value>128 бит</value>
+      </detail>
+      <detail>
+        <name>Максимальная пропускная способность памяти</name>
+        <value>272 Гбайт/сек</value>
+      </detail>
+      <detail>
+        <name>Эффективная частота памяти</name>
+        <value>17000 МГц</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id11</id>
+    <name>Видеокарта MSI GeForce RTX 4070 VENTUS 3X E OC [GeForce RTX 4070 VENTUS 3X E 12G OC]</name>
+    <picture>image11.jpg</picture>
+    <price>2189</price>
+    <description>12 GB GDDR6X, GPU 1920 MHz</description>
+    <button>Купить</button>
+    <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>36 мес.</value>
+      </detail>
+      <detail>
+        <name>Тип</name>
+        <value>видеокарта</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>MSI GeForce RTX 4070 VENTUS 3X E OC</value>
+      </detail>
+      <detail>
+        <name>Код производителя</name>
+        <value>[GeForce RTX 4070 VENTUS 3X E 12G OC]</value>
+      </detail>
+      <detail>
+        <name>Цвет</name>
+        <value>серый</value>
+      </detail>
+      <detail>
+        <name>Предназначена для майнинга (добыча криптовалют)</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>LHR</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Графический процессор</name>
+        <value>GeForce RTX 4070</value>
+      </detail>
+      <detail>
+        <name>Микроархитектура</name>
+        <value>NVIDIA Ada Lovelace</value>
+      </detail>
+      <detail>
+        <name>Техпроцесс</name>
+        <value>5 нм</value>
+      </detail>
+      <detail>
+        <name>Штатная частота работы видеочипа</name>
+        <value>1920 МГц</value>
+      </detail>
+      <detail>
+        <name>Турбочастота</name>
+        <value>2520 МГц</value>
+      </detail>
+      <detail>
+        <name>Количество универсальных процессоров (ALU)</name>
+        <value>5888</value>
+      </detail>
+      <detail>
+        <name>Число текстурных блоков</name>
+        <value>184</value>
+      </detail>
+      <detail>
+        <name>Число блоков растеризации</name>
+        <value>64</value>
+      </detail>
+      <detail>
+        <name>Поддержка трассировки лучей</name>
+        <value>есть</value>
+      </detail>
+      <detail>
+        <name>Аппаратное ускорение трассировки лучей (RT-ядра)</name>
+        <value>46</value>
+      </detail>
+      <detail>
+        <name>Тензорные ядра</name>
+        <value>184</value>
+      </detail>
+      <detail>
+        <name>Объем видеопамяти</name>
+        <value>12 ГБ</value>
+      </detail>
+      <detail>
+        <name>Тип памяти</name>
+        <value>GDDR6X</value>
+      </detail>
+      <detail>
+        <name>Разрядность шины памяти</name>
+        <value>192 бит</value>
+      </detail>
+      <detail>
+        <name>Максимальная пропускная способность памяти</name>
+        <value>504 Гбайт/сек</value>
+      </detail>
+      <detail>
+        <name>Эффективная частота памяти</name>
+        <value>21000 МГц</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id12</id>
+    <name>Видеокарта GIGABYTE GeForce RTX 2060 SUPER WINDFORCE OC [GV-N206SWF2OC-8GD 1.1]</name>
+    <picture>image12.jpg</picture>
+    <price>879</price>
+    <description>8 GB GDDR6 GPU 1470 MHz</description>
+    <button>Купить</button>
+     <fulldesc>
+      <detail>
+        <name>Гарантия продавца / производителя</name>
+        <value>36 мес.</value>
+      </detail>
+      <detail>
+        <name>Страна-производитель</name>
+        <value>Китай</value>
+      </detail>
+      <detail>
+        <name>Тип</name>
+        <value>видеокарта</value>
+      </detail>
+      <detail>
+        <name>Модель</name>
+        <value>GIGABYTE GeForce RTX 2060 SUPER WINDFORCE OC</value>
+      </detail>
+      <detail>
+        <name>Код производителя</name>
+        <value>[GV-N206SWF2OC-8GD 1.1]</value>
+      </detail>
+      <detail>
+        <name>Цвет</name>
+        <value>черный</value>
+      </detail>
+      <detail>
+        <name>Предназначена для майнинга (добыча криптовалют)</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>LHR</name>
+        <value>нет</value>
+      </detail>
+      <detail>
+        <name>Графический процессор</name>
+        <value>GeForce RTX 2060 SUPER</value>
+      </detail>
+      <detail>
+        <name>Микроархитектура</name>
+        <value>NVIDIA Turing</value>
+      </detail>
+      <detail>
+        <name>Техпроцесс</name>
+        <value>12 нм</value>
+      </detail>
+      <detail>
+        <name>Штатная частота работы видеочипа</name>
+        <value>1470 МГц</value>
+      </detail>
+      <detail>
+        <name>Турбочастота</name>
+        <value>1680 МГц</value>
+      </detail>
+      <detail>
+        <name>Количество универсальных процессоров (ALU)</name>
+        <value>2176</value>
+      </detail>
+      <detail>
+        <name>Число текстурных блоков</name>
+        <value>136</value>
+      </detail>
+      <detail>
+        <name>Число блоков растеризации</name>
+        <value>64</value>
+      </detail>
+      <detail>
+        <name>Поддержка трассировки лучей</name>
+        <value>есть</value>
+      </detail>
+      <detail>
+        <name>Аппаратное ускорение трассировки лучей (RT-ядра)</name>
+        <value>34</value>
+      </detail>
+      <detail>
+        <name>Тензорные ядра</name>
+        <value>272</value>
+      </detail>
+      <detail>
+        <name>Объем видеопамяти</name>
+        <value>8 ГБ</value>
+      </detail>
+      <detail>
+        <name>Тип памяти</name>
+        <value>GDDR6</value>
+      </detail>
+      <detail>
+        <name>Разрядность шины памяти</name>
+        <value>256 бит</value>
+      </detail>
+      <detail>
+        <name>Максимальная пропускная способность памяти</name>
+        <value>448 Гбайт/сек</value>
+      </detail>
+      <detail>
+        <name>Эффективная частота памяти</name>
+        <value>14000 МГц</value>
+      </detail>
+    </fulldesc>
+  </product>
+  <product>
+  <id>id13</id>
+    <name>Мышь беспроводная Logitech G PRO X SUPERLIGHT</name>
+    <picture>image13.jpg</picture>
+    <price>349</price>
+    <description>5600 dpi, светодиодный, USB Type-A, радиоканал, кнопки - 5</description>
+    <button>Купить</button>
+    <fulldesc>
+  <detail>
+    <name>Гарантия продавца</name>
+    <value>12 мес.</value>
+  </detail>
+  <detail>
+    <name>Страна-производитель</name>
+    <value>Китай</value>
+  </detail>
+  <detail>
+    <name>Тип</name>
+    <value>мышь</value>
+  </detail>
+  <detail>
+    <name>Модель</name>
+    <value>Logitech G PRO X SUPERLIGHT</value>
+  </detail>
+  <detail>
+    <name>Код производителя</name>
+    <value>[910-005884]</value>
+  </detail>
+  <detail>
+    <name>Основной цвет</name>
+    <value>черный</value>
+  </detail>
+  <detail>
+    <name>Подсветка</name>
+    <value>нет</value>
+  </detail>
+  <detail>
+    <name>Тканевая оплетка кабеля</name>
+    <value>нет</value>
+  </detail>
+  <detail>
+    <name>Стилизация</name>
+    <value>нет</value>
+  </detail>
+  <detail>
+    <name>Максимальное разрешение датчика</name>
+    <value>25600 dpi</value>
+  </detail>
+  <detail>
+    <name>Тип сенсора мыши</name>
+    <value>оптический светодиодный</value>
+  </detail>
+  <detail>
+    <name>Модель сенсора мыши</name>
+    <value>HERO 25K</value>
+  </detail>
+  <detail>
+    <name>Частота опроса</name>
+    <value>1000 Гц</value>
+  </detail>
+  <detail>
+    <name>Скорость (IPS)</name>
+    <value>400 IPS</value>
+  </detail>
+  <detail>
+    <name>Максимальное ускорение</name>
+    <value>40 G</value>
+  </detail>
+  <detail>
+    <name>Режимы работы датчика</name>
+    <value>100 dpi, 25600 dpi</value>
+  </detail>
+</fulldesc>
+  </product>
+  <product>
+  <id>id14</id>
+    <name>Клавиатура ARDOR GAMING Wakizashi</name>
+    <picture>image14.jpg</picture>
+    <price>409</price>
+    <description>механическая Gateron Mint, клавиш - 87, Bluetooth, USB</description>
+    <button>Купить</button>
+    <fulldesc>
+  <detail>
+    <name>Гарантия продавца</name>
+    <value>24 мес.</value>
+  </detail>
+  <detail>
+    <name>Страна-производитель</name>
+    <value>Китай</value>
+  </detail>
+  <detail>
+    <name>Тип</name>
+    <value>клавиатура</value>
+  </detail>
+  <detail>
+    <name>Модель</name>
+    <value>ARDOR GAMING Wakizashi</value>
+  </detail>
+  <detail>
+    <name>Код производителя</name>
+    <value>[AG-ZD-87GT-XDA-HS-W]</value>
+  </detail>
+  <detail>
+    <name>Тип клавиатуры</name>
+    <value>механическая</value>
+  </detail>
+  <detail>
+    <name>Основной цвет</name>
+    <value>белая</value>
+  </detail>
+  <detail>
+    <name>Дополнительный цвет</name>
+    <value>красный</value>
+  </detail>
+  <detail>
+    <name>Низкопрофильные клавиши</name>
+    <value>нет</value>
+  </detail>
+  <detail>
+    <name>Подсветка клавиш</name>
+    <value>есть</value>
+  </detail>
+  <detail>
+    <name>Цвет подсветки клавиш</name>
+    <value>RGB</value>
+  </detail>
+  <detail>
+    <name>Раскладка клавиатуры</name>
+    <value>английская, русская</value>
+  </detail>
+  <detail>
+    <name>Расположение символов</name>
+    <value>лицевая сторона</value>
+  </detail>
+  <detail>
+    <name>Профиль кейкапов</name>
+    <value>XDA</value>
+  </detail>
+  <detail>
+    <name>Подсвечивается</name>
+    <value>по области кейкапа</value>
+  </detail>
+  <detail>
+    <name>Модель переключателей</name>
+    <value>Gateron Mint</value>
+  </detail>
+  <detail>
+    <name>Тип переключателей</name>
+    <value>линейные</value>
+  </detail>
+  <detail>
+    <name>Материал кейкапов</name>
+    <value>PBT</value>
+  </detail>
+  <detail>
+    <name>Длина пути</name>
+    <value>4 мм</value>
+  </detail>
+  <detail>
+    <name>До срабатывания переключателей</name>
+    <value>2.0 мм</value>
+  </detail>
+  <detail>
+    <name>Жизненный цикл</name>
+    <value>80 млн</value>
+  </detail>
+  <detail>
+    <name>Сила нажатия</name>
+    <value>50 гс</value>
+  </detail>
+  <detail>
+    <name>Общее количество клавиш</name>
+    <value>87</value>
+  </detail>
+</fulldesc>
+  </product>
+  <product>
+  <id>id15</id>
+    <name>Проводные наушники Logitech G PRO X черный</name>
+    <picture>image15.jpg</picture>
+    <price>499</price>
+    <description>7.1 Virtual, охватывающие, 20 Гц - 20000 Гц</description>
+    <button>Купить</button>
+    <fulldesc>
+  <detail>
+    <name>Гарантия продавца</name>
+    <value>12 мес.</value>
+  </detail>
+  <detail>
+    <name>Страна-производитель</name>
+    <value>Вьетнам</value>
+  </detail>
+  <detail>
+    <name>Тип</name>
+    <value>проводные наушники</value>
+  </detail>
+  <detail>
+    <name>Модель</name>
+    <value>Logitech G PRO X</value>
+  </detail>
+  <detail>
+    <name>Игровые наушники</name>
+    <value>да</value>
+  </detail>
+  <detail>
+    <name>Способ передачи сигнала</name>
+    <value>проводной</value>
+  </detail>
+  <detail>
+    <name>Тип конструкции</name>
+    <value>охватывающие</value>
+  </detail>
+  <detail>
+    <name>Микрофон</name>
+    <value>есть</value>
+  </detail>
+  <detail>
+    <name>Основной цвет наушников</name>
+    <value>черный</value>
+  </detail>
+  <detail>
+    <name>Материал корпуса</name>
+    <value>металл, пластик, экокожа</value>
+  </detail>
+  <detail>
+    <name>Материал амбушюр</name>
+    <value>экокожа</value>
+  </detail>
+  <detail>
+    <name>Метод крепления</name>
+    <value>оголовье</value>
+  </detail>
+  <detail>
+    <name>Расположение микрофона</name>
+    <value>на наушниках</value>
+  </detail>
+  <detail>
+    <name>Съемный микрофон</name>
+    <value>есть</value>
+  </detail>
+  <detail>
+    <name>Крепление микрофона</name>
+    <value>подвижное</value>
+  </detail>
+  <detail>
+    <name>Подсветка</name>
+    <value>нет</value>
+  </detail>
+  <detail>
+    <name>Складные</name>
+    <value>нет</value>
+  </detail>
+  <detail>
+    <name>Детский дизайн</name>
+    <value>нет</value>
+  </detail>
+  <detail>
+    <name>Наушники для спорта</name>
+    <value>нет</value>
+  </detail>
+  <detail>
+    <name>Особенности конструкции</name>
+    <value>мягкие амбушюры, регулируемое оголовье, съемные амбушюры</value>
+  </detail>
+  <detail>
+    <name>Формат звуковой схемы</name>
+    <value>7.1 Virtual</value>
+  </detail>
+  <detail>
+    <name>Тип акустического оформления</name>
+    <value>закрытые</value>
+  </detail>
+  <detail>
+    <name>Диаметр мембраны излучателей</name>
+    <value>50 мм</value>
+  </detail>
+  <detail>
+    <name>Минимальная воспроизводимая частота</name>
+    <value>20 Гц</value>
+  </detail>
+  <detail>
+    <name>Максимальная воспроизводимая частота</name>
+    <value>20000 Гц</value>
+  </detail>
+  <detail>
+    <name>Сопротивление (импеданс) (Ом)</name>
+    <value>35Ω</value>
+  </detail>
+  <detail>
+    <name>Чувствительность</name>
+    <value>92 дБ</value>
+  </detail>
+  <detail>
+    <name>Количество излучателей с каждой стороны</name>
+    <value>1</value>
+  </detail>
+  <detail>
+    <name>Тип излучателей</name>
+    <value>динамические</value>
+  </detail>
+</fulldesc>
+  </product>
+</products>

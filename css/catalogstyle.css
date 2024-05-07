@@ -1,0 +1,145 @@
+h2 {
+    text-align: center;
+}
+.categories-line ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+button {
+    color: #f4eeff;
+    font-family: Kanit;
+    border: none;
+    background-color: inherit;
+}
+button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+    align-content: center;
+}
+#productlist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.product {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid #536da6;
+    width: 330px;
+    height: 350px;
+}
+.name {
+    height: 67.2px;
+}
+.product:not(.active):hover {
+    border-right: none;
+}
+.product:nth-child(3n) {
+    border-right: none;
+}
+.product h2:not(.name) {
+    font-size: 20px;
+    font-weight: bold;
+}
+.productpic {
+    mix-blend-mode: multiply;
+    width: 40%;
+    height: 40%;
+    align-self: center;
+}
+.productpic::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: white;
+    mix-blend-mode: screen; 
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 100%;
+}
+p {
+    overflow-wrap: break-word;
+}
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    main {
+        max-width: 100%;
+    }
+    h2,h3, li button {
+        font-size: 1.7em;
+    }
+    ul {
+        padding-left: 0px;
+    }
+    li button{
+        font-size: 15px;
+    }
+
+}
+@media screen and (min-width:425px) and (max-width:768px) {
+    main {
+        max-width: 100%;
+    }
+    .categories-line ul {
+        padding: 0px 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    li button {
+        font-size: 1.3em;
+        padding: 0px;
+        height: 100%;
+    }
+    #productlist {
+        grid-template-columns: repeat(1, 15fr);
+    }
+}
+@media screen and (min-width:320px) and (max-width:425px) {
+    main {
+        max-width: 100%;
+    }
+    .categories-line ul {
+        padding: 0px 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    li button {
+        font-size: 1.3em;
+    }
+    #productlist {
+        grid-template-columns: repeat(1, 15fr);
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .product {
+        width: 100%;
+    }
+}
+.fulldesc {
+    display: none;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin-top: 50px;
+}
