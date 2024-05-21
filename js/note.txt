@@ -1,0 +1,79 @@
+!!! Черновик попыток создать взаимодействие страниц index.html и catalog.html при клике на категорию на главной.
+Вариант 1 {
+    function setGavenCategory() {
+    // Получаем идентификатор фрагмента из URL (например, '#id1')
+    var id = window.location.hash;
+    // Удаляем символ '#' из начала строки, чтобы получить чистый идентификатор
+    id = id.slice(1);
+    console.log(id);
+    // Определяем категорию по id элемента
+    var category = 'category' + id;
+    console.log(category);
+    // Вызываем функцию filterProducts с соответствующей категорией
+    filterProducts(category);
+  }
+  setGavenCategory();
+  Array.from(categoryButtons).forEach(function (button) {
+    button.addEventListener('click', handleCategoryClick);
+  });
+}
+Вариант 2 {
+    // Флаг, чтобы отслеживать, была ли функция вызвана
+let hasClickedCategory = false;
+
+var id = window.location.hash;
+  id = id.slice(1);
+  console.log(id);
+  var category = 'category' + id;
+  console.log(category);
+
+  if (!hasClickedCategory) {
+    // Имитируем клик
+    document.querySelector('[data-category="$category"]').click();
+    // Устанавливаем флаг
+    hasClickedCategory = true;
+  }
+}
+Вариант 3 {
+    // Флаг, чтобы отслеживать, была ли функция вызвана
+  let hasClickedCategory = false;
+
+  var id = window.location.hash;
+  id = id.slice(1);
+  console.log(id);
+  var category = 'category' + id;
+  console.log(category);
+
+  if (hasClickedCategory != true) {
+    // Проверяем, существует ли элемент с нужным data-category
+    var categoryElement = document.querySelector(`[data-category="${category}"]`);
+    console.log("121321");
+    if (categoryElement) {
+      console.log("seww");
+      categoryElement.click();
+      hasClickedCategory = true;
+    }
+  }
+}
+Вариант 4 {
+   // Флаг, чтобы отслеживать, была ли функция вызвана
+  let hasClickedCategory = false;
+
+  var id = window.location.hash;
+  id = id.slice(1);
+  console.log(id);
+  var category = 'category' + id;
+  console.log(category);
+
+  if (hasClickedCategory != true) {
+    // Проверяем, существует ли элемент с нужным data-category
+    var categoryElement = document.querySelector(`[data-category="${category}"]`);
+    console.log("121321");
+    if (categoryElement) {
+      console.log("seww");
+      handleCategoryClick({ target: { getAttribute: function() { return category; }}});
+      hasClickedCategory = true;
+      hasClickedCategory = true;
+    }
+  }
+}

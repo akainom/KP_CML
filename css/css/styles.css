@@ -84,6 +84,7 @@ nav {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  max-width: 100%;
 }
 @media screen and (max-width: 768px) {
   .menu__box {
@@ -92,7 +93,7 @@ nav {
     visibility: hidden;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 320px;
     height: 11em;
     margin: -600px 0 0 0;
     padding: 0.6em 0;
@@ -101,6 +102,9 @@ nav {
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
     z-index: 1;
     transition-duration: 0.5s;
+  }
+  .menu__box li {
+    width: 320px;
   }
 }
 
@@ -251,6 +255,12 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 footer * {
   color: #999;
